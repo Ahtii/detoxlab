@@ -4,7 +4,8 @@ from os import environ
 ENV = environ.get('DJANGO_ENV') or 'local'
 
 base_settings = [
-    'components/common.py'
+    'components/common.py',
+    'components/databases.py',
     'environments/{0}.py'.format(ENV)
 ]
 
