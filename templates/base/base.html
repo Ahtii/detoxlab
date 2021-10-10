@@ -12,7 +12,9 @@
     {% block child_css %} {% endblock %}
 </head>
 <body>
-    {% include 'base/components/navbar.html' %}
+    <div class="container-fluid p-0 css_cover">
+        {% include 'base/components/navbar.html' %}
+    </div>
 
     {% block child_body %} {% endblock %}
 

@@ -1,3 +1,7 @@
-.css_navback {
+.navbar {
     box-shadow: 0px 0px 5px gray;
+}
+
+.navbar-brand {
+    color: green !important;
 }
