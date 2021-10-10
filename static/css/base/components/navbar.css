@@ -3,6 +3,11 @@
     color: #03C03C !important;
 }
 
+.navbar-brand img {
+    width: 120px;
+    height: 80px;
+}
+
 .nav-link {
     color: white !important;
     font-size: 18px;

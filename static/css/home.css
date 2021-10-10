@@ -1,0 +1,16 @@
+.working {
+    margin-top: 100px;
+}
+
+.home_img {
+    width: 500px;
+    height: 300px;
+}
+
+.working-title {
+    color: #03C03C;
+}
+
+.working-sep {
+    background-color: gray;
+}
