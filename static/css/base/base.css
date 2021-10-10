@@ -1,7 +1,8 @@
 .css_cover {
     position: relative;
-    min-height: 55vh;
+    min-height: 80vh;
     background-image: url('/static/media/images/others/cover2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 1;
 }
