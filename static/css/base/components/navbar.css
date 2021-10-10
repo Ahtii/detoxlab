@@ -8,7 +8,23 @@
     height: 80px;
 }
 
+.nav-item {
+    background: rgb(20, 30, 40);
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px solid gray;
+}
+
+.nav-item:hover {
+    border: 2px solid #57d257;
+}
+
 .nav-link {
     color: white !important;
     font-size: 18px;
+}
+
+.nav-bold {
+    color: #57d257;
+    font-weight: bold;
 }

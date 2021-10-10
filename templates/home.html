@@ -2,14 +2,18 @@
 {% load static %}
 {% block child_body %}
 
+    <!-- WORKING -->
+
     <div class="container working">
         <div class="row">
             <div class="col-md-5 col-6">
                 <img class="home_img" src="{% static 'media/images/others/engine.jpeg' %}" alt="how it works">
             </div>
             <div class="col-md-7 col-6">
-                <h2 class="working-title"> HOW IT WORKS? </h2>
-                <hr class="working-sep">
+                <div>
+                    <h2 class="working-title"> HOW IT WORKS? </h2>
+                    <hr class="working-sep">
+                </div>
                 <p class="working-text">
                     Hydroxy gas is capable of cleaning the <span class="working-bold">carbon deposits</span>
                     stuck around the combustion chamber parts like the Head, Piston, Valves, and chamber walls.
@@ -21,6 +25,46 @@
                     <br><br>
                     This may cause the vehicle less in pick-up or unwanted vibrators. Whenever you or the vehicle owner decided to clean the nozzles or injectors
                 </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- BENEFITS -->
+
+
+    <div class="container benefits">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-image" src="{% static 'media/images/others/1.jpg' %}">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-image" src="{% static 'media/images/others/2.jpg' %}">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-image" src="{% static 'media/images/others/3.jpg' %}">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="card-image" src="{% static 'media/images/others/4.jpg' %}">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
