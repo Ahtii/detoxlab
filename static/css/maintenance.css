@@ -1,0 +1,78 @@
+.maintenance .branding {
+    width: 60%;
+    margin-top: -10%;
+    margin: auto;
+}
+
+.maintenance-sep {
+    height: 1px;
+    width: 50%;
+    background-color: silver;
+    margin-top: -6%;
+    padding: 0px;
+}
+
+.maintenance .description p, .maintenance .site-state p {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #1CAC78;
+}
+
+.maintenance .site-state {
+    margin-top: -10px;
+}
+
+.booking, .address, .opening_hours {
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 8px silver;
+    border: 1px solid #1CAC78;
+    text-align: center;
+}
+
+.maintenance .card-sep {
+    height: 1px;
+    background-color: rgb(230, 230, 230);
+    margin-top: 0px;
+}
+
+.maintenance .card-body {
+    font-size: 18px;
+    padding: 0px;
+}
+
+.maintenance .social-icons .card {
+    display: inline;
+    text-align: center;
+    border: none;
+}
+
+.maintenance .instagram img, .maintenance .facebook img, .maintenance .linkedin img {
+    width: 35px;
+    height: 35px;
+}
+
+.maintenance .instagram, .maintenance .facebook, .maintenance .linkedin {
+    padding: 10px;
+}
+
+.on-small-screen {
+    margin-top: 20px;
+    margin-right: 0px !important;
+    display: none;
+}
+
+
+@media only screen and (max-width: 780px){
+    .on-large-screen {
+        display: none;
+    }
+    .on-small-screen {
+        display: block;
+    }
+    .maintenance .description p, .maintenance .site-state p {
+        font-size: 20px;
+    }
+}
+
