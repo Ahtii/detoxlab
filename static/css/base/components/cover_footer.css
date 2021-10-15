@@ -1,3 +1,4 @@
+/*
 .cover-footer {
     background-color: white;
     border-radius: 5px;
@@ -29,3 +30,29 @@
     margin-top: 5px;
     background-color: #03C03C;
 }
+
+.small-separator {
+    margin-top: 15px;
+    margin-bottom: -5px;
+    background-color: silver;
+    display: none;
+}
+
+@media only screen and (max-width: 780px){
+    .helpline {
+        margin-top: 20px;
+    }
+    .cover-separator {
+        width: 50px;
+    }
+    .cover-footer {
+        width: 400px;
+        margin-top: 0px;
+    }
+    .small-separator{
+        display: block;
+    }
+    .opening-hours div:first-child, .helpline div:first-child, div:last-child, .helpline div:last-child {
+        font-size: 12px;
+    }
+}*/

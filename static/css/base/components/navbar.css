@@ -28,3 +28,17 @@
     color: #57d257;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 980px){
+    .navbar-brand img {
+        width: 90px;
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 680px){
+    .navbar-brand img {
+        width: 60px;
+        height: 45px;
+    }
+}

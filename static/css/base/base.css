@@ -1,8 +1,40 @@
-.css_cover {
+.cover {
     position: relative;
-    min-height: 80vh;
-    background-image: url('/static/media/images/others/cover2.jpg');
+    min-height: 90vh;
+    background-image: url('/static/media/images/others/cover_back.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
+}
+
+/*
+@media only screen and (max-width: 980px){
+    .cover {
+        min-height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .cover {
+        min-height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 680px){
+    .cover {
+        min-height: 25vh;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .cover {
+        min-height: 20vh;
+    }
+}
+*/
+
+@media only screen and (max-width: 780px){
+    .cover {
+        min-height: 45vh;
+    }
 }
