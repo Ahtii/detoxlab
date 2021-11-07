@@ -3,9 +3,8 @@
     color: white;
     font-weight: bold;
     background-color: transparent;
-    text-align: center;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     border: none;
 }
 
@@ -19,7 +18,33 @@
 }
 
 .tagline .card-body {
-    font-size: 22px;
+    font-size: 25px;
+}
+
+.tagline .cover-pic {
+    margin-top: -200px;
+    position: relative;
+}
+
+.tagline .cover-pic img:first-child {
+    box-shadow: 0px 0px 8px rgb(52, 62, 72);
+    border: 5px solid lightgreen;
+    border-radius: 10px;
+}
+.tagline .cover-pic img:last-child {
+    border-radius: 10px;
+    position: absolute;
+    left: 75%;
+    top: 250px;
+    width: 180px;
+    height: auto;
+    opacity: 0.9;
+    transform: rotate(-5deg);
+}
+
+.tagline .know-benefits {
+    border: 1px solid white;
+    color: white;
 }
 
 .tagline .card-footer {
@@ -68,6 +93,57 @@
 .cover-separator {
     background-color: rgb(200, 200, 200);
     margin-top: 5px;
+}
+
+.contact-info {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.cover-benefits .carousel-caption .card {
+    background-color: transparent !important;
+    border: none;
+    font-size: 35px;
+    top: 50%;
+    transform: translateY(-20%);
+}
+
+.carousel-item .cover-pic {
+    filter: brightness(40%);
+}
+
+.cover-benefits .increase, .cover-benefits .decrease {
+    color: #03C03C;
+}
+
+.cover-benefits .carousel-caption .card ul {
+    text-align: left;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
+
+.cover-benefits .benefit-logo {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.benefit-fixed {
+    width: 120px;
+}
+
+.cover-benefits .benefit-text {
+    max-width: 250px;
 }
 
 @media only screen and (max-width: 780px){

@@ -1,8 +1,33 @@
 {% load static %}
 
 <!-- NAVIGATION BAR -->
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg extra-info">
     <div class="container">
-        <a class="navbar-brand" href="#"><img src="{% static 'media/images/logos/branding.png' %}"/></a>
+        <ul class="navbar-nav mx-auto" style="margin-bottom: -20px;">
+            <li class="nav-item">
+                <p><span style="font-weight: bold;"> Opening Hours </span>: Tue - Sun 10AM - 7PM</p>
+            </li>
+            <li class="nav-item">
+                <p style="margin-left: 100px;"><span style="font-weight: bold;"> Helpline </span>: +9194695558</p>
+            </li>
+        </ul>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light normal-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="{% static 'media/images/logos/branding2.png' %}"/></a>
+        <div class="collapse navbar-collapse" id="navbarCollapseTarget">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" role="button">BENEFITS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" role="button">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="faq_dd" role="button">FAQ</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>

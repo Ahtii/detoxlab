@@ -1,10 +1,11 @@
 .cover {
     position: relative;
-    min-height: 60vh;
-    background-image: url('/static/media/images/others/cover4.jpg');
+    min-height: 10vh;
+    /*background-image: url('/static/media/images/others/cover4.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 1;
+    background-repeat: no-repeat;*/
+    /*background-color: #018749;*/
+    /*z-index: 1;*/
 }
 
 /*
