@@ -1,4 +1,4 @@
-.tagline {
+/*.tagline {
     position: relative;
     color: white;
     font-weight: bold;
@@ -93,9 +93,13 @@
 .cover-separator {
     background-color: rgb(200, 200, 200);
     margin-top: 5px;
+}*/
+
+.carousel {
+    z-index: 1;
 }
 
-.contact-info {
+/*.contact-info {
     color: white;
     margin-top: 20px;
     text-align: center;
@@ -105,14 +109,13 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
-}
+}*/
 
 .cover-benefits .carousel-caption .card {
-    background-color: transparent !important;
+    background-color: red !important;
     border: none;
     font-size: 35px;
-    top: 50%;
-    transform: translateY(-20%);
+    /*top: 50%;*/
 }
 
 .carousel-item .cover-pic {
@@ -127,9 +130,22 @@
     text-align: left;
 }
 
-.carousel-caption p {
+/*.carousel-caption p {
     font-size: 18px;
+}*/
+
+/*.carousel-caption {
+    position: absolute;
+    top: -300px;
 }
+
+.carousel-caption h1 {
+    font-size: 50px;
+}
+
+.carousel-caption h3 {
+    font-size: 30px;
+}*/
 
 .cover-benefits .benefit-logo {
     width: 100px;

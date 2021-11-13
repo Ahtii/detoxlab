@@ -2,31 +2,70 @@
 .navbar-brand {
     color: #03C03C !important;
     position: absolute;
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-    border: 2px solid #03C03C;
-    box-shadow: 0px 0px 5px gray;
+    top: 5px;
+    background-color: transparent;
+    padding: 0px;
+    border: none;
+    box-shadow: none;
 }
 
 .navbar-brand img {
-    width: 140px;
-    height: auto;
+    width: auto;
+    height: 80px;
+}
+
+.navbar-nav {
+    margin-right: 100px;
 }
 
 .nav-item {
     margin-left: 20px;
+    margin-top: 10px;
 }
 
-.extra-info {
+.nav-link {
+    color: white!important;
+}
+
+.common-navbar-settings {
+    position: fixed;
+    height: auto;
+    width: 100%;
+    z-index: 9;
+}
+
+/*.extra-info {
     background-color: rgb(245, 245, 245);
+}*/
+
+.carousel-caption p {
+    margin-top: 200px;
+}
+
+.nav-title {
+    width: 100%;
+    margin: 5px;
+    position: fixed;
+    z-index: 9;
+    margin-top: 30px;
+    color: rgb(32, 42, 52);
+}
+
+.nav-title p {
+    position: absolute;
+    left: 25%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: lightgreen!important;
+    box-shadow: 0px 0px 5px solid gray;
+    border: 1px solid #03C03C;
+    border-radius: 5px;
+    border-bottom: none;
 }
 
 .normal-navbar {
-    border-top: 3px solid #03C03C;
-    border-bottom: 3px solid #03C03C;
-    position: relative;
-    z-index: 1;
+    background-color: transparent;
 }
 
 .nav-item:hover {
@@ -35,7 +74,7 @@
 
 .nav-link {
     color: rgb(32, 42, 52);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -45,15 +84,60 @@
 }
 
 @media only screen and (max-width: 980px){
-    .navbar-brand img {
-        width: 90px;
-        height: 70px;
+    .nav-title p {
+       font-size: 16px;
+       left: 30%;
     }
 }
 
-@media only screen and (max-width: 680px){
+@media only screen and (max-width: 760px){
+    .navbar-brand {
+       left: 10px;
+       background-color: transparent;
+       padding: 5px;
+       border: none;
+       box-shadow: none;
+    }
+
+    .nav-title p {
+        padding-bottom: 5px;
+        margin-top: -5px!important;
+    }
+
     .navbar-brand img {
-        width: 60px;
-        height: 45px;
+        width: auto;
+        height: 80px;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+
+    .navbar-mobile {
+        border-radius: 5px!important;
+        box-shadow: 0px 0px 5px gray!important;
+        background-color: white;
+        padding: 10px!important;
+        z-index: 9;
+        margin-right: 5px!important;
+        margin-left: 40%!important;
+    }
+
+    .normal-navbar {
+        border: none;
+        background-color: transparent;
+    }
+
+    .nav-link {
+        color: #03C03C!important;
+    }
+
+    .nav-title p {
+       font-size: 12px;
+       margin-top: 5px;
     }
 }

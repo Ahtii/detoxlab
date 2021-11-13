@@ -13,11 +13,8 @@
 </head>
 <body>
     <!-- COVER SECTION -->
-    <div class="container-fluid p-0 cover">
-        {% include 'base/components/navbar.html' %}
-        {% include 'base/components/tagline.html' %}
-    </div>
-
+    {% include 'base/components/navbar.html' %}
+    {% include 'base/components/tagline.html' %}
     {% include 'base/components/cover_footer.html' %}
 
     {% block child_body %} {% endblock %}
