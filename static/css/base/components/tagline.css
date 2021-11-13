@@ -99,6 +99,10 @@
     z-index: 1;
 }
 
+.carousel-caption p {
+    margin-top: 200px;
+}
+
 /*.contact-info {
     color: white;
     margin-top: 20px;
@@ -162,8 +166,29 @@
     max-width: 250px;
 }
 
-@media only screen and (max-width: 780px){
-    .tagline {
+.carousel-title {
+    font-size: 45px;
+}
+
+.carousel-but-title {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 980px){
+    .carousel-title {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .carousel-title {
+        font-size: 35px;
+    }
+
+    .carousel-sub-title {
+        font-size: 20px;
+    }
+/*    .tagline {
         margin-top: 0px;
     }
 
@@ -189,5 +214,5 @@
 
     .tagline-benefits button {
         font-size: 16px;
-    }
+    }*/
 }
