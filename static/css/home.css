@@ -1,3 +1,4 @@
+/*
 .working {
     margin-top: 50px;
     min-width: 80%;
@@ -11,6 +12,7 @@
     color: #03C03C;
 }
 
+*/
 /*.home_img {
     width: 100%;
     height: 100%;
@@ -35,7 +37,8 @@
 
 .working-text {
     font-size: 18px;
-}*/
+}*//*
+
 
 .benefits {
     margin-top: 100px;
@@ -63,4 +66,109 @@
 .card-image {
     width: 100%;
     height: 400px;
+}*/
+
+.working {
+    background-color: rgb(248, 248, 248);
+	border: none;
+	box-shadow: none;
+	padding: 30px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.working-img {
+    margin-left: 5%;
+}
+
+.working-img img {
+    border: 5px solid #53C168;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+}
+
+.working .card {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.working-body {
+    padding: 20px;
+}
+
+.working-body .text {
+    font-size: 20px;
+}
+
+.working-body .separator {
+    background-color: #53C168;
+    width: 100px;
+    height: 2px;
+}
+
+.working-body .card-title {
+    color: #53C168;
+    font-weight: bold;
+}
+
+.working-body .card-body {
+    padding-left: 5%;
+    padding-right: 20%;
+    font-size: 22px;
+}
+
+.working-body h2 {
+    color: #53C168;
+    font-weight: bold;
+    text-align: center;
+}
+
+.working .working-img div {
+	background-image: url("/static/media/images/others/working_compressed.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 90%;
+	height: 100%;
+	filter: drop-shadow(0px 0px 5px rgb(100, 100, 100));
+}
+
+.working-small-screen {
+	display: none;
+}
+.working-small-screen img {
+	min-width: 100% !important;
+	height: auto !important;
+	padding: 50px;
+	padding-bottom: 5px;
+	filter: drop-shadow(0px 0px 5px rgb(60, 60, 60));
+}
+
+@media only screen and (max-width: 760px){
+    .working-small-screen {
+        display: block;
+        margin-top: -20px !important;
+    }
+
+    .working-small-screen img {
+        padding: 10px!important;
+    }
+
+    .working-body .separator {
+        margin-top: 5px!important;
+    }
+
+    .working-body {
+        margin-top: 20px;
+        padding: 0px!important;
+    }
+
+    .working-body h2 {
+        font-size: 20px;
+    }
+
+    .working-body .text {
+        font-size: 15px;
+    }
 }

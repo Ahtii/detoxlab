@@ -1,18 +1,20 @@
 
 footer {
-    background-color: rgb(80, 90, 100);
+    background-color: #53C168;
     border-top: 3px solid #03C03C;
     padding-top: 20px;
-    color: white;
+    color: rgb(32, 42, 62);
+    border-top: 5px solid rgb(200, 200, 200);
 }
 
 .footer-bottom {
-    background-color: rgb(62, 72, 82);
+    background-color: #53C160;
+    border-top: 1px solid rgb(200, 200, 200);
     padding-top: 5px;
 }
 
 footer .title h5 {
-    color: #03C03C !important;
+    color: rgb(32, 42, 62) !important;
 }
 
 .social-media {

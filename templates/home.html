@@ -2,96 +2,39 @@
 {% load static %}
 {% block child_body %}
 
-    <!-- WORKING -->
+<!-- WORKING -->
 
-    <div class="container working">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <img class="card-img-top" src="{% static 'media/images/others/working.jpeg' %}">
-                    <div class="card-body">
-                        <h2 class="card-title"> How it works? </h2><hr><br>
-                        <p class="working-text">
-                            Hydroxy gas is capable of cleaning the <span class="working-bold">carbon deposits</span>
-                            stuck around the combustion chamber parts like the Head, Piston, Valves, and chamber walls.
-                            <br><br>
-                            Energizer is required for Decarbonising service.
-                            Decaabo Decarbonising service works to remove the above-mentioned carbon at the combustion chambers.
-                            <br><br>
-                            In some old vehicle engines, there will be some very minor blocks at the fuel path and nozzles or injectors.
-                            <br><br>
-                            This may cause the vehicle less in pick-up or unwanted vibrators. Whenever you or the vehicle owner decided to clean the nozzles or injectors
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <img class="card-img-top" src="{% static 'media/images/others/working.jpeg' %}">
-                    <div class="card-body">
-                        <h2 class="card-title"> How it works? </h2><hr><br>
-                        <p class="working-text">
-                            Hydroxy gas is capable of cleaning the <span class="working-bold">carbon deposits</span>
-                            stuck around the combustion chamber parts like the Head, Piston, Valves, and chamber walls.
-                            <br><br>
-                            Energizer is required for Decarbonising service.
-                            Decaabo Decarbonising service works to remove the above-mentioned carbon at the combustion chambers.
-                            <br><br>
-                            In some old vehicle engines, there will be some very minor blocks at the fuel path and nozzles or injectors.
-                            <br><br>
-                            This may cause the vehicle less in pick-up or unwanted vibrators. Whenever you or the vehicle owner decided to clean the nozzles or injectors
-                        </p>
-                    </div>
-                </div>
-            </div>
+<div class="container-fluid working">
+    <div class="row working-small-screen">
+        <div class="d-flex justify-content-center align-items-center-center">
+            <img src="{% static 'media/images/others/working.jpeg' %}" alt="what we do">
         </div>
     </div>
 
-
-    <!-- BENEFITS -->
-
-
-    <div class="container benefits">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <img class="card-image" src="{% static 'media/images/others/1.jpg' %}">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <img class="card-image" src="{% static 'media/images/others/3.jpg' %}">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-body">
-                        <img class="card-image" src="{% static 'media/images/others/2.jpg' %}">
-                    </div>
-                </div>
-            </div>
+    <div class="row">
+        <div class="col-md-5 working-img">
+            <div></div>
         </div>
-        <br>
-<!--        <div class="row">-->
-<!--            <div class="col-md-6">-->
-<!--                <div class="card">-->
-<!--                    <div class="card-body">-->
-<!--                        <img class="card-image" src="{% static 'media/images/others/3.jpg' %}">-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6">-->
-<!--                <div class="card">-->
-<!--                    <div class="card-body">-->
-<!--                        <img class="card-image" src="{% static 'media/images/others/4.jpg' %}">-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+        <div class="col-md working-body">
+            <h2> How It Works?</h2>
+            <hr class="separator">
+            <ol>
+                <li class="text">
+                    Oxyhydrogen gas or HHO is produced by our machine, which is then
+                    introduced into the air intake of the engine.
+                </li><br>
+                <li class="text">
+                    Vehicle is set kept in idling for 30-40minutes.
+                </li><br>
+                <li class="text">
+                    The gas is combusted with fuel and air mixture,
+                    this reaction changes carbon deposits into
+                    small particles and carbon returns to a gaseous state,
+                    which is then expelled through the exhaust system.
+                </li>
+            </ol>
+        </div>
     </div>
+</div>
 
 {% endblock %}
