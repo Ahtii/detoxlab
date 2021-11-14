@@ -87,12 +87,6 @@
     border-radius: 10px;
 }
 
-.working .card {
-    border: none;
-    box-shadow: none;
-    background-color: transparent;
-}
-
 .working-body {
     padding: 20px;
 }
@@ -101,21 +95,10 @@
     font-size: 20px;
 }
 
-.working-body .separator {
+.working-body .separator, .benefits-title .separator {
     background-color: #53C168;
     width: 100px;
     height: 2px;
-}
-
-.working-body .card-title {
-    color: #53C168;
-    font-weight: bold;
-}
-
-.working-body .card-body {
-    padding-left: 5%;
-    padding-right: 20%;
-    font-size: 22px;
 }
 
 .working-body h2 {
@@ -145,6 +128,67 @@
 	filter: drop-shadow(0px 0px 5px rgb(60, 60, 60));
 }
 
+.benefits {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 30px:
+}
+
+.benefits-title {
+    color: #53C168;
+    margin-bottom: 50px;
+}
+
+.benefits-title h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.benefits-sub-title {
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+/*.benefits-sub-title p {
+    font-size: 18px;
+    text-align: center;
+    background-color: #53C168;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+}*/
+
+.benefits .card {
+    padding: 20px;
+    box-shadow: 0px 0px 5px silver;
+    height: 300px;
+}
+
+.benefits img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.benefits .card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.benefits .card-body {
+    background-color: #53C168;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    color: white;
+    box-shadow: 0px -2px 0px silver;
+}
+
 @media only screen and (max-width: 760px){
     .working-small-screen {
         display: block;
@@ -170,5 +214,13 @@
 
     .working-body .text {
         font-size: 15px;
+    }
+
+    .benefits .carousel-item .card-title {
+        font-size: 18px;
+    }
+
+    .benefits .carousel-item .card-text {
+        font-size: 14px;
     }
 }
