@@ -182,11 +182,11 @@
 
 @media only screen and (max-width: 760px){
     .carousel-title {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     .carousel-sub-title {
-        font-size: 20px;
+        font-size: 18px;
     }
 /*    .tagline {
         margin-top: 0px;
