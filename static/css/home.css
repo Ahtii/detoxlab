@@ -95,7 +95,7 @@
     font-size: 20px;
 }
 
-.working-body .separator, .benefits-title .separator {
+.working-body .separator, .benefits-title .separator, .reviews .separator {
     background-color: #53C168;
     width: 100px;
     height: 2px;
@@ -187,6 +187,40 @@
     margin-bottom: -20px;
     color: white;
     box-shadow: 0px -2px 0px silver;
+}
+
+.reviews {
+    margin-top: 50px;
+}
+
+.reviews-title {
+    margin-bottom: 20px;
+}
+
+.reviews-title h2 {
+    color: #53C168;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.reviews .card-img {
+    height: auto;
+    width: 80%;
+}
+
+.reviews .card-body {
+    height: 250px;
+    font-size: 18px;
+}
+
+.reviews-btn {
+    color: #53C168;
+    border: 1px solid #53C168;
+    padding: 10px;
+}
+
+.reviews-btn:hover {
+    border: 2px solid #53C168;
 }
 
 @media only screen and (max-width: 760px){
