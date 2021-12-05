@@ -1,72 +1,3 @@
-/*
-.working {
-    margin-top: 50px;
-    min-width: 80%;
-}
-
-.working .card {
-    box-shadow: 0px 0px 5px gray;
-}
-
-.working .card-title {
-    color: #03C03C;
-}
-
-*/
-/*.home_img {
-    width: 100%;
-    height: 100%;
-    filter: drop-shadow(0px 0px 5px rgb(100, 100, 100));
-    margin-right: 200px;
-}
-
-.working-title {
-    color: #03C03C;
-}
-
-.working-sep {
-    padding: 1px;
-	background-color: #03C03C;
-}
-
-.working-bold {
-    color: #03C03C;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-.working-text {
-    font-size: 18px;
-}*//*
-
-
-.benefits {
-    margin-top: 100px;
-    min-width: 80%;
-}
-
-.benefits .card-body {
-    box-shadow: 0px 0px 5px gray;
-    border-radius: 5px;
-    border: none;
-}
-
-.benefits-title {
-    color: #03C03C;
-    text-align: center;
-}
-
-.benefits-sep {
-    margin-top: 10px;
-	padding: 1px;
-	background-color: #03C03C;
-	width: 150px;
-}
-
-.card-image {
-    width: 100%;
-    height: 400px;
-}*/
 
 .working {
     background-color: rgb(248, 248, 248);
@@ -95,7 +26,7 @@
     font-size: 20px;
 }
 
-.working-body .separator, .benefits-title .separator, .reviews .separator {
+.working-body .separator, .benefits-title .separator, .reviews .separator, .about-us .separator {
     background-color: #53C168;
     width: 100px;
     height: 2px;
@@ -189,15 +120,34 @@
     box-shadow: 0px -2px 0px silver;
 }
 
-.reviews {
+.benefits-sub-title {
+    font-size: 30px;
+    color: #53C168;
+    font-weight: bold;
+    text-align: center;
+}
+
+.benefits-sub-title .body {
+    font-size: 25px;
+}
+
+.benefits-sub-title .box {
+    box-shadow: 0px 0px 5px gray;
+    color: white;
+    background-color: #53C168;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.reviews, .about-us {
     margin-top: 50px;
 }
 
-.reviews-title {
+.reviews-title, .about-us-title {
     margin-bottom: 20px;
 }
 
-.reviews-title h2 {
+.reviews-title h2, .about-us-title h2 {
     color: #53C168;
     font-weight: bold;
     font-size: 30px;
@@ -221,6 +171,19 @@
 
 .reviews-btn:hover {
     border: 2px solid #53C168;
+    color: #53C168;
+}
+
+.about-us {
+    background-color: rgb(248, 248, 248);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: -50px;
+}
+
+.about-us p {
+    font-size: 22px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 760px){
@@ -256,5 +219,17 @@
 
     .benefits .carousel-item .card-text {
         font-size: 14px;
+    }
+
+    .about-us p {
+        font-size: 18px;
+    }
+
+    .benefits-sub-title {
+        font-size: 18px;
+    }
+
+    .benefits-sub-title .body {
+        font-size: 15px;
     }
 }
