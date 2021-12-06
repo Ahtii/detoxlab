@@ -131,6 +131,11 @@
     font-size: 25px;
 }
 
+.bonus-box {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 .benefits-sub-title .box {
     box-shadow: 0px 0px 5px gray;
     color: white;
@@ -150,7 +155,6 @@
 .reviews-title h2, .about-us-title h2 {
     color: #53C168;
     font-weight: bold;
-    font-size: 30px;
 }
 
 .reviews .card-img {
@@ -186,6 +190,69 @@
     text-align: center;
 }
 
+.book-slot-btn {
+    box-shadow: 0px 0px 5px gray;
+    color: white;
+    background-image: linear-gradient(#53C168, rgb(10, 150, 10));
+    font-weight: bold;
+    position: relative;
+    height: 65px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.book-slot-btn p {
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.ribbon {
+    width: 75px;
+    height: 60px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: transparent;
+    border: none;
+    overflow: hidden;
+}
+.ribbon span {
+    width: 130px;
+    padding: 5px 0px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: -45px;
+    transform: rotate(-45deg);
+    text-align: center;
+    color: #53C168;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.ribbon:after {
+    content: '';
+    border: 5px solid transparent;
+    position: absolute;
+}
+.ribbon:before {
+    bottom: 0;
+    right: 0;
+}
+.ribbon:after {
+    top: 0;
+    left: 0;
+}
+
+.book-slot-btn .badge {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    font-size: 12px;
+}
+
 @media only screen and (max-width: 760px){
     .working-small-screen {
         display: block;
@@ -205,7 +272,7 @@
         padding: 0px!important;
     }
 
-    .working-body h2 {
+    .working-body h2, .reviews-title h2, .about-us h2 {
         font-size: 20px;
     }
 
@@ -231,5 +298,18 @@
 
     .benefits-sub-title .body {
         font-size: 15px;
+    }
+    .book-slot-btn {
+        width: 80%;
+    }
+    .book-slot-btn p {
+        font-size: 24px!important;
+        padding-left: 28px;
+    }
+    .book-slot-btn .badge {
+        top: 65%;
+        left: 60%!important;
+        font-size: 12px;
+        box-shadow: 0px 0px 5px gray;
     }
 }
